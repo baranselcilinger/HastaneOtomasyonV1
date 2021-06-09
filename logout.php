@@ -1,0 +1,24 @@
+<?php   
+
+session_start();
+session_destroy();
+
+
+header('location:index.php?=exit')
+
+?>
+
+
+
+
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Başlıksız Belge</title>
+</head>
+
+<body>
+</body>
+</html>
